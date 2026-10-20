@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Django
+db.sqlite3
+*.log
+staticfiles/
+media/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Machine Learning (phase 3)
+*.pkl
+*.joblib
